@@ -1,0 +1,54 @@
+// ComponentStyles > GlobalStyles
+@import './style/ComponentStyles/GlobalStyles/TopBalancebarStyles.scss';
+@import './style/ComponentStyles/GlobalStyles/BottomNavbarStyle.scss';
+@import './style/ComponentStyles/GlobalStyles/GoBackButtonStyle.scss';
+@import './style/ComponentStyles/GlobalStyles/ItembarStyle.scss';
+@import './style/ComponentStyles/GlobalStyles/GlobalButton.scss';
+@import './style/ComponentStyles/GlobalStyles/LoadingScreenStyle.scss';
+
+// ComponentStyles > StartStyles
+@import './style/ComponentStyles/StartStyles/StartTitleStyle.scss';
+@import './style/ComponentStyles/StartStyles/StartImageStyle.scss';
+@import './style/ComponentStyles/StartStyles/StartButtonStyle.scss';
+@import './style/ComponentStyles/StartStyles/StartMintingStyle.scss';
+
+// ComponentStyles > WalletStyles
+@import './style/ComponentStyles/WalletStyles/InventoryStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletModalStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletMnemonicStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletMakeStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletPinComponentStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletSwitchButtonStyle.scss';
+@import './style/ComponentStyles/WalletStyles/WalletTabStyle.scss';
+
+// ComponentStyles > GrowingStyles
+@import './style/ComponentStyles/GrowingStyles/InteractionMenuStyle.scss';
+@import './style/ComponentStyles/GrowingStyles/TreeStyle.scss';
+
+// ComponentStyles > StakingStyles
+@import './style/ComponentStyles/StakingStyles/StakingHouseStyle.scss';
+
+// ComponentStyles > ThiefStyles
+@import './style/ComponentStyles/ThiefStyles/ThiefImageStyle.scss';
+@import './style/ComponentStyles/ThiefStyles/ThiefStartButtonStyle.scss';
+@import './style/ComponentStyles/ThiefStyles/ThiefTitleStyle.scss';
+@import './style/ComponentStyles/ThiefStyles/CardStyle.scss';
+@import './style/ComponentStyles/ThiefStyles/ThiefNeedTextStyle.scss';
+
+html {
+  background-color: #EDBE00;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

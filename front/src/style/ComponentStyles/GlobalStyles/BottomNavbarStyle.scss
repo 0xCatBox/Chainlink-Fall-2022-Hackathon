@@ -1,0 +1,45 @@
+.BottomNavbar {
+    height: 50px;
+    max-width: 200px;
+    width: 300px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    bottom:30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 999px;
+    box-shadow: 0px 5px 0px #CB9C00;
+    background-color: #C6D0D0;
+}
+
+.NavActive {
+    color: black;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    border-radius: 999px;
+}
+
+.NavActive:hover {
+    color: black;
+}
+
+.NavDeactive {
+    color: #999999;
+    background-color: #C6D0D0;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    border-radius: 999px;
+}
+
+.NavDeactive:hover {
+    color: #666666;
+}

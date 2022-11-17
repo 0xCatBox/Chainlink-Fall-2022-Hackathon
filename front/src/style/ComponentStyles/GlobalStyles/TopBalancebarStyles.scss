@@ -1,0 +1,47 @@
+.TopBalancebar {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    border-radius: 999px;
+    font-size: 12px;
+    position: absolute;
+    right:20px;
+    top:30px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 0px #CB9C00;
+    padding-bottom: 3px;
+}
+
+.TopBalancebarBalances {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3px;
+    margin-right:5px;
+}
+
+.TopBalanceBarToken {
+    width: 30px;
+    height: 30px;
+    background-color: #EEEEEE;
+    box-shadow: 0px 3px 0px #999999;
+    border-radius: 999px;
+}
+
+.TopBalanceBarIcon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFCA0F;
+    box-shadow: 0px 3px 0px #CB9C00;
+    border-radius: 999px;
+    margin-left: 5px;
+}
+
+.WalletIcon {
+    color: black;
+}
