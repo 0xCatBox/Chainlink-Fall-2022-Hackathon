@@ -5,7 +5,9 @@ import { FaMoneyBillWave } from "react-icons/fa";
 import { MdInventory } from "react-icons/md";
 
 const BottomNavbar = () => {
+
     console.log("BottomNavbar");
+    
     return(
         <div className="BottomNavbar">
             <NavLink to="/growing" className={({ isActive }) => (isActive ? "NavActive" : "NavDeactive")} ><GiMushroomGills size={24} /></NavLink>

@@ -1,0 +1,22 @@
+    [
+        {
+            "type": "initmushroom",
+            "amount": "1",
+            "image": "../../../assets/mush00.png"
+        },
+        {
+            "type": "mushroom",
+            "amount": "1",
+            "image": "../../../assets/mush02.png"
+        },
+        {
+            "type": "spore",
+            "amount": "1",
+            "image": "../../../assets/spore.png"
+        },
+        {
+            "type": "thief",
+            "amount": "1",
+            "image": "../../../assets/thief.png"
+        }
+    ]

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TreeImage from "../../../assets/tree.png";
 import TreeNew from "../../../assets/treenew01.png";
 import Poja from '../../../assets/spore.png';
-import Mush00 from '../../../assets/mush00.png';
+// import Mush00 from '../../../assets/mush00.png';
 import Mush01 from '../../../assets/mush01.png';
 import Mush02 from '../../../assets/mush02.png';
 import { useEffect } from "react";
@@ -187,9 +187,7 @@ const Tree = ({ mode, handleMode }) => {
                 return (<ImgBaby />);
             } else if (MushOne == "adult") {
                 return (<img src={Mush02} width="60px" height="60px" onClick={() => MushHarvest(0)} />);
-            } else if (MushOne == "adult2") {
-                return (<img src={Mush00} width="60px" height="60px" onClick={() => MushHarvest(-1)} />);
-            }
+            } 
         }
         if (index == 1) {
             if (MushTwo == "hole") {

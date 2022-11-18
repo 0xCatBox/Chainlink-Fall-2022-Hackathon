@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 // import { PinInput } from 'react-input-pin-code';
 
 // import usePinStore from "../../../store/PinStore";
-import WalletPinComponent from "../GrowingFarmComponents/WalletPinComponent";
+import WalletPinComponent from "../GlobalFeatures/WalletPinComponent";
 
 {/*
 ==============================

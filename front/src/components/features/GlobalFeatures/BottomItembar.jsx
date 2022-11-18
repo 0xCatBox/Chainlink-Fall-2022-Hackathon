@@ -7,9 +7,10 @@ import { useEffect } from "react";
 import useStakingStore from "../../../stores/StakingStore";
 import dummy from './dummy.json';
 
-const StakingItembar = ({ StakingState, handleMode }) => {
+const BottomItembar = () => {
 
-    console.log("StakingItembar");
+    console.log("BottomItembar");
+    console.log(window.location.pathname);
 
     const [startopen, setStartopen] = useState(false); // 모달 여닫기를 관리하는 상태
     const [completeopen, setCompleteopen] = useState(false); // 모달 여닫기를 관리하는 상태
@@ -161,4 +162,4 @@ const StakingItembar = ({ StakingState, handleMode }) => {
     )
 }
 
-export default StakingItembar;
+export default BottomItembar;
